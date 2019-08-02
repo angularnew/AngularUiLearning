@@ -1,0 +1,75 @@
+<div class="container">
+  <h2 class="tit">Preview:</h2>
+  <div class="row">
+    <div class="col-sm-7">
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="firstName">FirstName:</label>
+          <div class="col-sm-8">
+            {{customer.firstName}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="LastName">LastName:</label>
+          <div class="col-sm-8">
+            {{customer.lastName}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Mobile">Mobile Number:</label>
+          <div class="col-sm-8">
+            {{customer.mobile}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="email">Email:</label>
+          <div class="col-sm-8">
+            {{customer.email}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Street">Street:</label>
+          <div class="col-sm-8">
+            {{customer.street}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">Country:</label>
+          <div class="col-sm-8">
+            {{customer.country}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">Province:</label>
+          <div class="col-sm-8">
+            {{customer.province}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">City:</label>
+          <div class="col-sm-8">
+            {{customer.city}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">Zip Code:</label>
+          <div class="col-sm-8">
+            {{customer.zipCode}}
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">        
+            <div class="col-sm-offset-4 col-sm-4">
+              <button type="submit" class="btn btn-default" (click)="edit()">Edit</button>
+            </div>
+            <div class="col-sm-2">
+              <button type="submit" class="btn btn-default" (click)="confirm()">Confirm</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+

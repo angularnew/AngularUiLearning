@@ -1,0 +1,69 @@
+<div class="container">
+  <h2 class="tit">Enter your details</h2>
+  <div class="row">
+    <div class="col-sm-8">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="firstName">FirstName:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="firstName" placeholder="Enter FirstName" name="firstName" [(ngModel)]="customer.firstName">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="LastName">LastName:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="LastName" placeholder="Enter LastName" name="LastName" [(ngModel)]="customer.lastName">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Mobile">Mobile Number:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="Mobile" placeholder="Enter Mobile" name="Mobile" [(ngModel)]="customer.mobile">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="email">Email:</label>
+          <div class="col-sm-8">
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" [(ngModel)]="customer.email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Street">Street:</label>
+          <div class="col-sm-8">
+            <input type="Street" class="form-control" id="Street" placeholder="Enter Street" name="Street" [(ngModel)]="customer.street">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">Country:</label>
+          <div class="col-sm-8">
+            <input type="Country" class="form-control" id="Country" placeholder="Enter Country" name="Country" [(ngModel)]="customer.country">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">Province:</label>
+          <div class="col-sm-8">
+            <input type="Province" class="form-control" id="Province" placeholder="Enter Province" name="Province" [(ngModel)]="customer.province">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">City:</label>
+          <div class="col-sm-8">
+            <input type="City" class="form-control" id="City" placeholder="Enter City" name="City" [(ngModel)]="customer.city">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="Country">Zip Code:</label>
+          <div class="col-sm-8">
+            <input type="ZipCode" class="form-control" id="Zip Code" placeholder="Enter Zip Code" name="Zip Code" [(ngModel)]="customer.zipCode">
+          </div>
+        </div>
+        <div class="form-group">        
+          <div class="col-sm-offset-2 col-sm-8" style="padding:20px 0px 0px 350px">
+            <button type="submit" class="btn btn-default" (click)="preview()" >Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
