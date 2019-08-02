@@ -8,6 +8,7 @@ import { PreviewComponent } from 'src/core/create/preview.component';
 import { SubmitComponent } from 'src/core/create/submit.component';
 import { AppRoutingComponent } from './approuting.component';
 import { ViewComponent } from 'src/core/view/view.component';
+import { StrictNumberOnlyDirective } from 'src/utils/StrictNumberOnlyDirective';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ViewComponent } from 'src/core/view/view.component';
     PreviewComponent,
     SubmitComponent,
     ViewComponent,
+    StrictNumberOnlyDirective,
   ],
   imports: [
     FormsModule,

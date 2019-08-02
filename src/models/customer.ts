@@ -8,6 +8,7 @@ export class Customer{
     province:string;
     city:string;
     zipCode:string;
+    investmentAmount:number;
     constructor(){
 
     }
